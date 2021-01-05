@@ -1,0 +1,117 @@
+
+/* COLORS
+	- button one color        #F06529
+    - button one hover color  #E44D27
+    - button two color        #4265F1
+	- button two hover color  #3B4DE4
+*/
+
+/* FONT
+    - global font 'Lato'
+    - font-weight: 100, 300
+*/
+
+/* === GLOBAL SETTINGS === */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+}
+
+/* === CARD AREA === */
+
+.card{
+    width: 23.5rem;
+    height: 57rem;
+    margin: 0.7rem auto;
+    box-shadow: 5px 5px 10px 5px #ddd;
+    border-radius: 0.25rem;
+}
+
+.card__area{
+    width: 100%;
+    height: 50%;
+    padding: 0.5rem;
+}
+
+.card__image{
+    width: 100%;
+    height: 60%;
+    text-align: center;
+    padding-top: 0.7rem;
+    background: #EBEBEB;
+}
+
+/* === IMAGE ONE === */
+
+.image__one img{
+    width: 70%;
+    height: 90%;
+}
+
+/* === IMAGE TWO === */
+
+.image__two img{
+    width: 50%;
+    height: 90%;
+}
+
+/* === CARD INFORMATIONS === */
+
+.card__information{
+    margin-top: 1.5rem;
+}
+
+.card__information__title{
+    font-size: 1.45rem;
+}
+
+.card__information__description{
+    margin-top: 0.45rem;
+    text-align: justify;
+}
+
+/* === CARD BUTTONS === */
+
+.card__btn{
+    margin-top: 1.5rem;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.3rem;
+    padding: 0.4rem;
+}
+
+.card__btn__link:link,
+.card__btn__link:visited{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+/* === BUTTON ONE === */
+
+.btn__one{
+    background:#F06529;
+    transition: all 0.3s;
+}
+
+.btn__one:hover,
+.btn__one:active{
+    background: #E44D27;
+}
+
+/* === BUTTON TWO === */
+
+.btn__two{
+    background: #4265F1;
+    transition: all 0.3s;
+}
+
+.btn__two:hover,
+.btn__two:active{
+    background: #3B4DE4;
+}
